@@ -18,6 +18,7 @@ let username = id("username"),
     engine(password, 2, "Password cannot be blank");
   });
 
+  /*
   let engine = (id, serial, message) => {
     if (id.value.trim() === "") {
     } 
@@ -36,6 +37,11 @@ let username = id("username"),
       errorMsg[serial].innerHTML = "";
     }
   }
+  */
+
+  // I commented this out above because I was at first making the same function 3 times without realizing it.
+  // I wanted to keep this in the code so I can come back to it later.
+  // Below is the right function.
 
   let engine = (id, serial, message) => {
 
